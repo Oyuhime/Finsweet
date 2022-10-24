@@ -3,12 +3,15 @@ body{
     margin: 0 auto;
 }
 
-/* home-nav */
 .container {
     width: 1280px;
     margin: 0 auto;
 }
 
+
+
+/* This is the Home page */
+/* nav */
 .row-header {
     display: flex;
     height: 84px;
@@ -49,13 +52,13 @@ body{
     cursor: pointer;
 }
 
-/* home-header */
+/* header */
 .header-home{
     background-color: #DCEAF5;
     height: 703px;
 }
 
-.header-post{
+.row-header_post{
     display: flex;
     gap: 54px;
 }
@@ -116,9 +119,8 @@ body{
 }
 
 
- /* section */
 /* section_help */
-.section_help{
+.col-section_help{
     width: 735px;
     display: flex;
     flex-direction: column;
@@ -139,7 +141,7 @@ body{
     margin-top: 27px;
 }
 
-.help_post{
+.row-help_post{
     display: flex;
     gap: 40px;
 }
@@ -174,13 +176,13 @@ body{
 
 
 /* section_features */
-.section_features{
+.col-section_features{
     height: 665px;
     background: #EDF7FF;
     margin-top: 96px;
 }
 
-.features_text{
+.row-features_text{
     display: flex;  
     gap: 40px;
 }
@@ -200,12 +202,12 @@ body{
     margin-top: 102px;
 }
 
-.features_post{
+.row-features_post{
     display: flex;
     gap: 38px;
 }
 
-.features_bg{
+.col-features_bg{
     background: #FFFFFF;
     border-radius: 20px;
     width: 400px;
@@ -237,11 +239,11 @@ body{
 
 
 /* section_about */
-.section_about{
+.row-section_about{
     display: flex;
 }
 
-.about_text{
+.col-about_text{
     display: flex;
     flex-direction: column;
 }
@@ -287,11 +289,10 @@ body{
 
 }
 
-.about_statistic{
+.col-about_statistic{
     display: flex;
     gap: 26px;
 }
-
 
 .statistic_nmbr{
     font-family: 'Inter', sans-serif;
@@ -321,7 +322,7 @@ body{
 
 
 /* section_service */
-.section_service{ 
+.row-section_service{ 
     height: 682px;
     background: #EDF7FF;
     border-radius: 20px;
@@ -336,7 +337,7 @@ body{
     left: 1116px;
 }
 
-.service_tab{
+.row-service_tab{
     display: flex;
     gap: 24px;
 }
@@ -368,7 +369,7 @@ body{
     margin-top: 48px;
 }
 
-.service_card{
+.row-service_card{
     display: flex;
 }
 
@@ -387,7 +388,7 @@ body{
     position: absolute;
 }
 
-.service_post{
+.col-service_post{
     display: flex;
 }
 
@@ -421,7 +422,7 @@ body{
 
 
 /* section_cta */
-.section_cta{
+.row-section_cta{
     display: flex;
     margin-top: 128px;
     min-width: 1280px;
@@ -434,7 +435,7 @@ body{
     flex: 1;
 }
 
-.cta_bg{
+.col-cta_bg{
     background-color: #f58a07;
     padding-top: 128px;
     padding-bottom: 128px;
@@ -466,11 +467,11 @@ body{
 
 
 /* section_video */
-.section_video{
+.row-section_video{
     display: flex;
 }
 
-.video_text{
+.col-video_text{
     display: flex;
     flex-direction: column;
 }
@@ -493,11 +494,11 @@ body{
     margin-bottom: 0px;
 }
 
-.video_profile{
+.row-video_profile{
     display: flex;
 }
 
-.video_pf_text{
+.col-video_pf_text{
     display: flex;
     flex-direction: column;
 }
@@ -536,7 +537,7 @@ body{
     margin-left: 110px;
 }
 
-.video_det_post{
+.row-video_det_post{
     display: flex;
     position: absolute;
     bottom: 50px;
@@ -568,7 +569,7 @@ body{
 
 
 /* section_latest */
-.section_latest{
+.col-section_latest{
     height: 819px;
     background: #DCEAF5;
     margin-top: 128px;
@@ -581,11 +582,7 @@ body{
     padding-top: 96px;
 }
 
-.help_post{
-    display: flex;
-}
-
-.help_tab{
+.col-help_tab{
     display: flex;
     flex-direction: column;
 }
@@ -649,13 +646,13 @@ body{
     position: absolute;
 }
 
-.footer_top{
+.row-footer_top{
     display: flex;
     gap: 115px;
     padding-top: 80px;
 }
 
-.footer_left{
+.col-footer_left{
     display: flex;
     flex-direction: column;
 }
@@ -674,7 +671,7 @@ body{
     margin: 0px;
 }
 
-.footer_social{
+.row-footer_social{
     margin-top: 32px;
     display: flex;
     gap: 22px;
@@ -687,13 +684,13 @@ body{
     margin-bottom: 24px;
 }
 
-.footer_item{
+.col-footer_item{
     display: flex;
     flex-direction: column;
     gap: 16px;
 }
 
-.footer_item a{
+.col-footer_item a{
     text-decoration: none;
     color: #FFFFFF;
     font-size: 16px;
@@ -713,7 +710,7 @@ body{
     font-family: 'Inter', sans-serif;
 }
 
-.footer_bottom{
+.row-footer_bottom{
     font-size: 16px;
     color: #FFFFFF;
     margin-top: 85px;
@@ -725,14 +722,14 @@ body{
     width: 250px;
 }
 
-.footer_add{
+.row-footer_add{
     display: flex;
     gap: 32px;
 }
 
 
 
-/* Services-page */
+/* This is the Services page */
 /* header */
 .header-services{
     display: flex;
@@ -835,7 +832,8 @@ body{
 
 
 
-/* Careers-page */
+/* This is the Careers page */
+/* section*/
 .section_careers{
     display: flex;
     flex-direction: column;
@@ -893,7 +891,8 @@ body{
 
 
 
-/* Blog-page */
+/* This is the Blog page */
+/* header */
 .header-blog{
     height: 749px;
     background: #DCEAF5;
@@ -966,7 +965,7 @@ body{
     flex-direction: column;
 }
 
-.blog_post{
+.row-blog_post{
     display: flex;
     gap: 40px;
     margin-bottom: 128px;
@@ -974,16 +973,17 @@ body{
 
 
 
-/* Blog inner-page*/
-.blog_inner_container{
-    width: 755px;
-    margin: 0px auto;
-}
-
+/* This is the Blog-inner page*/
+/* section */
 .blog_inner_img{
     margin-bottom: 80px;
     margin-top: 70px;
     border-radius: 20px;
+}
+
+.blog_inner_container{
+    width: 755px;
+    margin: 0px auto;
 }
 
 .blog_inner_text{
@@ -1019,7 +1019,9 @@ body{
 }
 
 
-/* Careers-2-page */
+
+/* This is the Careers-2 page */
+/* header */
 .careers_info h2{
     font-size: 64px;
     letter-spacing: -0.03em;
@@ -1056,6 +1058,8 @@ body{
     margin: 0px;
 }
 
+
+/* careers_detail section */
 .careers_detail{
     width: 1280px;
     height: 441px;
@@ -1155,7 +1159,8 @@ body{
 
 
 
-/* Contact us-page */
+/* This is the Contact-us page */
+/* header */
 .header-contact{
     display: flex;
     gap: 100px;
@@ -1191,6 +1196,8 @@ body{
     color: #5B5B5B;
 }
 
+
+/* section */
 .contact_sec{
     display: flex;
     gap: 55px;
